@@ -163,7 +163,7 @@ For example, int values are stored in 4 bytes of memory. There is an Integer.MAX
 ..	index::
 	pair: double; precision format
     
-Although it's not on the AP exam, you can format long decimal numbers to just show 2 digits after the decimal point with the following code:
+You can format long decimal numbers to just show 2 digits after the decimal point with the following code:
 
 .. activecode:: double_precision
    :language: java
@@ -314,7 +314,7 @@ Your teacher may suggest that you use a Java IDE like |repl| for this challenge 
 
    <a href="https://unicodelookup.com/" target="_blank">Unicode Lookup</a>
    
-If you get done early with this challenge, here's something else fun you can do in Java, although it's not covered in the AP exam. Java was one of the first programming languages to use |UNICODE| for its characters. Unicode is an international standard where each letter in any alphabet is represented by a number.  Unicode uses hex code (a base 16 code that uses the digits 0-9 and the letters A-F for 10-15), but you can give Java an equivalent decimal number and type cast it to the type char (for character) to show the unicode character. 
+If you're looking for even more of a challenge, here's something else fun you can do in Java. Java was one of the first programming languages to use |UNICODE| for its characters. Unicode is an international standard where each letter in any alphabet is represented by a number.  Unicode uses hex code (a base 16 code that uses the digits 0-9 and the letters A-F for 10-15), but you can give Java an equivalent decimal number and type cast it to the type char (for character) to show the unicode character. 
 
 Try the following program which prints out |Chinese|. Look up other characters at this |Unicode Lookup| site and print them out in the Active Code window below by using the decimal number (see Dec column in site) and type casting to char. Can you print out a letter from 3 different languages?
 

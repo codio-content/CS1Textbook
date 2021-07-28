@@ -34,7 +34,7 @@ Anatomy of a Java Program
 	pair: class; method
 	pair: class; main method
 	
-Every program in Java is written as a **class**. Java is an **object-oriented language** and we'll learn more about classes and objects in Unit 2. Inside the class, there can be a **main method** that starts the program. When you ask the Java run-time to *run* a class, it will always start execution in the main method. Here is the template for a simple Java program with a main method:
+Every program in Java is written as a **class**. Java is an **object-oriented language** and we'll learn more about classes and objects later on. Inside the class, there can be a **main method** that starts the program. When you ask the Java run-time to *run* a class, it will always start execution in the main method. Here is the template for a simple Java program with a main method:
 
 .. code-block:: java 
 
@@ -459,7 +459,7 @@ Summary
 
 - A **compiler** translates Java code into a class file that can be run on your computer. **Compiler or syntax errors** are reported to you by the compiler if the Java code is not correctly written. Some things to check for are ; at end of command lines, matching { }, (), and "". 
 
-AP Practice
+Practice
 ------------
 
 .. mchoice:: AP1-2-1

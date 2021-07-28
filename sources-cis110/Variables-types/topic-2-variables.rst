@@ -69,7 +69,7 @@ Data Types
 	pair: variable; Boolean
 	pair: variable; String
 
-There are two types of variables in Java: **primitive variables** that hold primitive types and **object variables** that hold a reference to an object of a class.  A reference is a way to find the object (like a UPS tracking number helps you find your package).  The primitive types on the Advanced Placement Computer Science A exam are: 
+There are two types of variables in Java: **primitive variables** that hold primitive types and **object variables** that hold a reference to an object of a class.  A reference is a way to find the object (like a UPS tracking number helps you find your package).  The primitive types we are concerned with are: 
 
     -  int - which store integers (numbers like 3, -76, 20393) 
 
@@ -77,7 +77,9 @@ There are two types of variables in Java: **primitive variables** that hold prim
     
     -  boolean - which store Boolean values (either true or false). 
 
-**String** is one of the object types on the exam and is the name of a class in Java.  A *string* object has a sequence of characters enclosed in a pair of double quotes - like "Hello".  You will learn more about ``String`` objects in Unit 2. 
+    -  char - which store single characters (like 'a', 'b', 'A', 'B', '+', and '9')
+
+**String** is an object type and is the name of a class in Java.  A ``String`` object has a sequence of characters enclosed in a pair of double quotes - like "Hello".  We will learn more later about what makes ``String`` objects different from the primitive data types. 
 
 
 .. note:: 
@@ -622,7 +624,7 @@ Summary
 - The memory associated with a variable of a primitive type holds an actual primitive value.
 - When a variable is declared final, its value cannot be changed once it is initialized.  
 
-AP Practice
+Practice
 ------------
 
 

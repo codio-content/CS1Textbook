@@ -96,7 +96,7 @@ The most common shortcut operator ``++``, the plus-plus or **increment** operato
    
 .. note::
 
-   On the exam you can use ``x++`` or ``++x`` to add one to the value of ``x``.  These two shortcuts only have different results if you assign the value of ``x`` to another variable as in ``int y = ++x;`` (where the value of x is incremented before y is set to it) or ``int y = x++;`` (where y is set to a copy of x's value before x is incremented).  The AP exam will never use a shortcut in an assignment statement, so you don't need to worry about the difference between ``++x`` or ``x++``.  
+   On the exam you can use ``x++`` or ``++x`` to add one to the value of ``x``.  These two shortcuts only have different results if you assign the value of ``x`` to another variable as in ``int y = ++x;`` (where the value of x is incremented before y is set to it) or ``int y = x++;`` (where y is set to a copy of x's value before x is incremented).    
 
 
 |Exercise| **Check Your Understanding**
@@ -204,7 +204,7 @@ Summary
 
 - Compound assignment operators (+=, -=, \*=, /=, %=) can be used in place of the assignment operator.
 - The increment operator (++) and decrement operator (--) are used to add 1 or subtract 1 from the stored value of a variable. The new value is assigned to the variable.
-- The use of increment and decrement operators in prefix form (i.e., ++x) and inside other expressions (i.e., arr[x++]) is outside the scope of this course and the AP Exam. 
+- The use of increment and decrement operators in prefix form (i.e., ++x) and inside other expressions (i.e., arr[x++]) is outside the scope of this course. 
 
 .. raw:: html
     

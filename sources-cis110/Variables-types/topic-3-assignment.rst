@@ -186,23 +186,23 @@ If you use a variable to keep score you would probably increment it (add one to 
     }
 
 
-Input with Variables
---------------------
+.. Input with Variables
+.. --------------------
 
-.. |repl JavaIOExample| raw:: html
+.. .. |repl JavaIOExample| raw:: html
 
-   <a href="https://repl.it/@BerylHoffman/JavaIOExample" target="_blank">repl JavaIOExample</a>
-
-
+..    <a href="https://repl.it/@BerylHoffman/JavaIOExample" target="_blank">repl JavaIOExample</a>
 
 
-Variables are a powerful abstraction in programming because the same algorithm can be used with different input values saved in variables.  The code below (|repl JavaIOExample|) will say hello to anyone who types in their name for different name values. Click on run and then type in your name. Then, try run again and type in a friend's name. The code works for any name: behold, the power of variables!
 
-.. raw:: html
 
-    <iframe height="500px" width="100%" style="max-width:90%; margin-left:5%"  src="https://repl.it/@BerylHoffman/JavaIOExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+.. Variables are a powerful abstraction in programming because the same algorithm can be used with different input values saved in variables.  The code below (|repl JavaIOExample|) will say hello to anyone who types in their name for different name values. Click on run and then type in your name. Then, try run again and type in a friend's name. The code works for any name: behold, the power of variables!
+
+.. .. raw:: html
+
+..     <iframe height="500px" width="100%" style="max-width:90%; margin-left:5%"  src="https://repl.it/@BerylHoffman/JavaIOExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
     
-Although you will not be tested in the AP CS A exam on using the Java System.in and Scanner classes, learning how to do input in Java is still very useful. More information on using the Scanner class can be found here https://www.w3schools.com/java/java_user_input.asp 
+.. Although you will not be tested in the AP CS A exam on using the Java System.in and Scanner classes, learning how to do input in Java is still very useful. More information on using the Scanner class can be found here https://www.w3schools.com/java/java_user_input.asp 
 
 
 
@@ -504,20 +504,20 @@ In this programming challenge, you will calculate your age, and your pet's age f
     }
    
 
-.. |repl| raw:: html
+.. .. |repl| raw:: html
 
-   <a href="https://repl.it" target="_blank">repl.it</a>
+..    <a href="https://repl.it" target="_blank">repl.it</a>
    
 
-.. |Scanner| raw:: html
+.. .. |Scanner| raw:: html
 
-   <a href="https://www.w3schools.com/java/java_user_input.asp" target="_blank">Scanner class</a>
+..    <a href="https://www.w3schools.com/java/java_user_input.asp" target="_blank">Scanner class</a>
    
-.. |repl template| raw:: html
+.. .. |repl template| raw:: html
 
-   <a href="https://repl.it/@BerylHoffman/Challenge1-4-Dog-Years-Template" target="_blank">repl template</a>
+..    <a href="https://repl.it/@BerylHoffman/Challenge1-4-Dog-Years-Template" target="_blank">repl template</a>
 
-Your teacher may suggest that you use a Java IDE like |repl| for this challenge so that you can use input to get these values using the |Scanner|. Here is a |repl template| that you can use to get started if you want to try the challenge with input.
+.. Your teacher may suggest that you use a Java IDE like |repl| for this challenge so that you can use input to get these values using the |Scanner|. Here is a |repl template| that you can use to get started if you want to try the challenge with input.
 
 Summary
 -------------------
