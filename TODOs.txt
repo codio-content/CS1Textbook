@@ -1,0 +1,4 @@
+1. Iteration, topic 1 has a REPLIT example that features the Java Scanner for taking inputs. Maybe this is fine, maybe we want to address this more explicitly ahead of time.
+2. Iteration, topic 2 has no examples that don't have to do with the Turtles, which we haven't used yet. Commenting them out for now, maybe we want a different example in there.
+3. Iteration, topic 4 has a lot of Turtles commented out. might need more examples.
+4. Moved a number of "FRQs" from the iteration section to a folder in Functions. These are good Qs but they generally require understanding of static methods. These still need to be edited down and we'll decide what to do with them.

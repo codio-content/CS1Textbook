@@ -321,7 +321,7 @@ Here is a flowchart for a conditional with 3 options like in the code above.
 
 .. |repl link| raw:: html
 
-   <a href="https://repl.it/@BerylHoffman/Adventure" target="_blank" style="text-decoration:underline">repl link</a>
+   <a href="https://.it/@BerylHoffman/Adventure" target="_blank" style="text-decoration:underline">repl link</a>
 
 
 We encourage you to work in pairs for this challenge which is on repl.it (you will need an account there if you want to save your version).
@@ -334,9 +334,9 @@ In a game like Adventure, else if statements can be used to respond to commands 
 
 2. Add in **else if** statements to go in the directions of "s" for south, "e" for east, "w" for west, and an else statement that says "You can't go in that direction". Be creative and come up with different situations in each direction. 
 
-2. How many test-cases are needed to test all branches of your code?
+3. How many test-cases are needed to test all branches of your code?
 
-3. If your class has time, your teacher may ask you to expand this game further or to come up with a different adventure location. 
+4. If your class has time, your teacher may ask you to expand this game further or to come up with a different adventure location. 
 
 
 .. raw:: html
