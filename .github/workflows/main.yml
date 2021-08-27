@@ -1,0 +1,46 @@
+name: csawsome-book-publish
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        path: CS1Textbook
+
+
+    - name: Checkout book-converter repo
+      uses: actions/checkout@v2
+      with:
+        repository: codio/book-converter
+        path: book-converter
+        ref: csawsome_book
+
+    - name: Generate toc
+      working-directory: book-converter
+      run: python3 converter.py --type rst --source CS1Textbook/_sources --generate CS1Textbook/_sources/index.rst converted-structure -y
+
+    - name: Convert
+      working-directory: book-converter
+      run: python3 converter.py converted-structure -y
+
+    - name: Log into Codio
+      id: codio-login
+      uses: codio/codio-auth-action@master
+      with:
+        client-id: ${{ secrets.CODIO_SAASBOOK_DEV_CLIENT_ID }}
+        secret-id: ${{ secrets.CODIO_SAASBOOK_DEV_SECRET_ID }}  
+    
+    - name: Chapter 1 publish to Codio
+      uses: codio/codio-assignment-publish-action@master
+      with:
+        token: ${{ steps.codio-login.outputs.token }}
+        course-id: d690f31b35ceccfe585199ebe358f033
+        assignment-id: ce989716ef77688777719db740023d86
+        changelog: ${{ github.event.head_commit.message }}
+        dir: converted-structure/generate/getting-started-and-primitive-types
