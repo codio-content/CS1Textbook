@@ -19,17 +19,6 @@ Table of Contents
    Conditionals/toctree.rst
    Iteration/toctree.rst
    Arrays/toctree.rst
-   Functions/toctree.rst
-   Searching/toctree.rst
-   Recursion/toctree.rst
-   Unit-testing/toctree.rst
-   Objects/toctree.rst
-   Classes/toctree.rst
-   Number-System/toctree.rst
-   Ref-ADT-Nodes/toctree.rst
-   Lists/toctree.rst
-   2D-Arrays/toctree.rst
-   Comparing-Sorting/toctree.rst
    
 
 
