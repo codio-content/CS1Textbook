@@ -297,15 +297,7 @@ Arrays know their length (how many elements they can store).  It is a public rea
 Access and Modify Array Values 
 =====================================
 
-To access the items in an array, we use an **indexed array variable** which is the array name and the index inside of square bracket [ ]. Remember that an **index** is a number that indicates the position of an item in a list, starting at 0. Here's a comparison of App Inventor, AP CSP Pseudocode, and Java array access.
-
-
-.. figure:: Figures/appinvSelectComparison.png
-    :width: 100%
-    :align: center
-    :figclass: align-center
-    
-    Figure 5: Comparing Access to App Inventor lists and Java arrays
+To access the items in an array, we use an **indexed array variable** which is the array name and the index inside of square bracket [ ]. Remember that an **index** is a number that indicates the position of an item in a list, starting at 0. 
 
 An indexed variable like **arrayname[index]** can be used anywhere a regular variable can be used, for example to assign a new value or to get a value from the array like below.
 
