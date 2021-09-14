@@ -1,0 +1,644 @@
+workspace:
+  directory: ../CS1Textbook
+  source: sources-cis110
+  rst: sources-cis110/index.rst
+assets:
+  - _static
+  - "sources-cis110/Variables-types/Figures":
+      pattern: "*.*"
+      dst: "Figures"
+  - "sources-cis110/Strings-Wrapper-Math/Figures":
+      pattern: "*.*"
+      dst: "Figures"
+  - "sources-cis110/Conditionals/Figures":
+      pattern: "*.*"
+      dst: "Figures"
+  - "sources-cis110/Iteration/Figures":
+      pattern: "*.*"
+      dst: "Figures"
+  - "sources-cis110/Arrays/Figures":
+      pattern: "*.*"
+      dst: "Figures"
+sections:
+  - name: "Getting Started and Variables & Primitive Types"
+    type: chapter
+    configuration:
+      layout: 1-panel
+  - name: "Anatomy of a Java Program"
+    type: section
+    codio_section: start
+  - name: "Active code: lcfc1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: printCommands"
+    type: section
+  - name: "Active code: sc2error1"
+    type: section
+  - name: "Active code: sc2error2"
+    type: section
+  - name: "Active code: sc2error3"
+    type: section
+  - name: "Active code: challenge1_2"
+    type: section
+    codio_section: end
+  - name: "Variables and Data Types"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lcdv2"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: lcdv3"
+    type: section
+  - name: "Active code: Testfn"
+    type: section
+  - name: "Active code: lcnv1"
+    type: section
+  - name: "Active code: challenge1_3"
+    type: section
+    codio_section: end
+  - name: "Expressions and Assignment Statements"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lccv1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: lcop1"
+    type: section
+  - name: "Active code: compound1"
+    type: section
+  - name: "Active code: lcop2"
+    type: section
+  - name: "Active code: challenge1_4"
+    type: section
+    codio_section: end
+  - name: "Compound Assignment Operators"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lcpp"
+    type: section
+    configuration:
+      layout: 2-panels
+    codio_section: end
+  - name: "Casting and Ranges of Variables"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lcct1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: nearestInt"
+    type: section
+  - name: "Active code: overfl"
+    type: section
+  - name: "Active code: double_precision"
+    type: section
+  - name: "Active code: challenge1_6_average"
+    type: section
+  - name: "Active code: challenge1_6_unicode"
+    type: section
+    codio_section: end
+  - name: "Summary"
+    type: section
+    configuration:
+      layout: 1-panel
+  - name: "Unit 1 Mixed Up Code Practice"
+    type: section
+  - name: "Unit 1 Coding Practice"
+    type: section
+    codio_section: start
+  - name: "Active code: ch4Ex2q"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: ch4Ex3q"
+    type: section
+  - name: "Active code: ch4Ex5q"
+    type: section
+  - name: "Active code: ch4Ex6q"
+    type: section
+  - name: "Active code: ch4Ex7q"
+    type: section
+  - name: "Active code: ch4Ex8q"
+    type: section
+  - name: "Active code: ch4Ex9q"
+    type: section
+  - name: "Active code: ch3Ex1q"
+    type: section
+  - name: "Active code: ch3Ex2q"
+    type: section
+  - name: "Active code: ch3Ex3q"
+    type: section
+  - name: "Active code: ch3Ex4q"
+    type: section
+  - name: "Active code: ch3Ex5q"
+    type: section
+  - name: "Active code: ch3Ex6q"
+    type: section
+  - name: "Active code: ch3Ex7q"
+    type: section
+  - name: "Active code: ch3Ex8q"
+    type: section
+  - name: "Active code: ch3Ex10q"
+    type: section
+    codio_section: end
+  - name: "Strings"
+    type: chapter
+    configuration:
+      layout: 1-panel
+  - name: "Strings"
+    type: section
+    codio_section: start
+  - name: "Active code: lcsb1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: lcsbnew"
+    type: section
+  - name: "Active code: lcsb2"
+    type: section
+  - name: "Active code: lcso1"
+    type: section
+  - name: "Active code: lcso2"
+    type: section
+  - name: "Active code: bhescape"
+    type: section
+  - name: "Active code: challenge2_6_MadLibs"
+    type: section
+    codio_section: end
+  - name: "String Methods"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lcsm1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: lcsm2"
+    type: section
+  - name: "Active code: stringMistakes"
+    type: section
+  - name: "Active code: challenge2_7_PigLatin"
+    type: section
+    codio_section: end
+  - name: "Wrapper Classes - Integer and Double"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lcmm1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: integerMethods"
+    type: section
+  - name: "Active code: challenge2_8_wrapperDebug"
+    type: section
+    codio_section: end
+  - name: "Using the Math Class"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: random1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: randomRange"
+    type: section
+  - name: "Active code: challenge2_9_random_math"
+    type: section
+  - name: "Active code: challenge_2_9b_dancing_turtles"
+    type: section
+    codio_section: end
+  - name: "Unit 2 Summary"
+    type: section
+    configuration:
+      layout: 1-panel
+  - name: "Mixed Up Code Practice"
+    type: section
+  - name: "Coding Practice"
+    type: section
+    codio_section: start
+  - name: "Active code: ch3Ex9q"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: ch4Ex1q"
+    type: section
+  - name: "Active code: ch4Ex4q"
+    type: section
+  - name: "Active code: ch4Ex10q"
+    type: section
+  - name: "Active code: ch4Ex11q"
+    type: section
+  - name: "Active code: ch4Ex12q"
+    type: section
+  - name: "Active code: Turtle_eoc_triangle_ac"
+    type: section
+  - name: "Active code: Turtle_eoc_rect_ac"
+    type: section
+  - name: "Active code: Turtle_eoc_draw_seven_ac"
+    type: section
+  - name: "Active code: Turtle_eoc_draw_four_ac"
+    type: section
+  - name: "Active code: Turtle_eoc_draw_interesting_ac"
+    type: section
+    codio_section: end
+  - name: "Multiple Choice Exercises"
+    type: section
+    configuration:
+      layout: 1-panel
+  - name: "Conditionals"
+    type: chapter
+  - name: "Boolean Expressions"
+    type: section
+    codio_section: start
+  - name: "Active code: bool1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: boolRef"
+    type: section
+  - name: "Active code: bool2"
+    type: section
+  - name: "Active code: boolMod"
+    type: section
+  - name: "Active code: challenge3_1_primeNumbers"
+    type: section
+    codio_section: end
+  - name: "if Statements and Control Flow"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lccb1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: if_relational"
+    type: section
+  - name: "Active code: lccb2_indent"
+    type: section
+    codio_section: end
+  - name: "Two-way Selection: if-else Statements"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lccb2"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: licenseifelse"
+    type: section
+  - name: "Active code: scoreifelse"
+    type: section
+  - name: "Active code: danglingelse"
+    type: section
+  - name: "Active code: challenge3_3_IfElse_20Questions_autograde"
+    type: section
+    codio_section: end
+  - name: "Multi-Selection: else-if Statements"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lccbElseIf"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: lccbIfDebug"
+    type: section
+  - name: "Active code: ifelseifBattery"
+    type: section
+  - name: "Active code: challenge3_4_ElseIf_Adventure_autograde"
+    type: section
+    codio_section: end
+  - name: "Compound Boolean Expressions"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lccc1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: lccc2"
+    type: section
+  - name: "Active code: lcccnum"
+    type: section
+  - name: "Active code: lcccnot"
+    type: section
+    codio_section: end
+  - name: "Equivalent Boolean Expressions (De Morgan's Laws)"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lcdmtest"
+    type: section
+    configuration:
+      layout: 2-panels
+    codio_section: end
+  - name: "String Equality"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lcse1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: lcse2"
+    type: section
+  - name: "Active code: nullTest"
+    type: section
+    codio_section: end
+  - name: "Summary"
+    type: section
+    configuration:
+      layout: 1-panel
+  - name: "Mixed Up Code Practice"
+    type: section
+  - name: "Coding Practice"
+    type: section
+    codio_section: start
+  - name: "Active code: ch5Ex1q"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: ch5Ex2q"
+    type: section
+  - name: "Active code: ch5Ex3q"
+    type: section
+  - name: "Active code: ch5Ex4q"
+    type: section
+  - name: "Active code: ch5Ex5q"
+    type: section
+  - name: "Active code: ch5Ex6q"
+    type: section
+  - name: "Active code: ch5Ex7q"
+    type: section
+  - name: "Active code: ch5Ex8q"
+    type: section
+  - name: "Active code: ch5Ex9q"
+    type: section
+  - name: "Active code: ch5Ex10q"
+    type: section
+    codio_section: end
+  - name: "Multiple Choice Exercises"
+    type: section
+    configuration:
+      layout: 1-panel
+  - name: "Iteration (Loops)"
+    type: chapter
+  - name: "While Loops"
+    type: section
+    codio_section: start
+  - name: "Active code: whileloop"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: whileloopbugs"
+    type: section
+  - name: "Active code: challenge4_1_loop_GuessingGame_autograde"
+    type: section
+    codio_section: end
+  - name: "For Loops"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: forloop"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: forloopfromwhile"
+    type: section
+  - name: "Active code: lcfcp1"
+    type: section
+  - name: "Active code: forloop_backwards"
+    type: section
+    codio_section: end
+  - name: "Loops and Strings"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lclw1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: reverseString"
+    type: section
+  - name: "Active code: challenge4_3_string_replace"
+    type: section
+    codio_section: end
+  - name: "Nested For Loops"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: lcfcnl1"
+    type: section
+    configuration:
+      layout: 2-panels
+    codio_section: end
+  - name: "Loop Analysis"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: example_trace_loop"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: countstars1"
+    type: section
+  - name: "Active code: countstars"
+    type: section
+    codio_section: end
+  - name: "Unit 4 Summary"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: while_loop_mistake1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: while_loop_oob"
+    type: section
+  - name: "Active code: while_loop_early_leave"
+    type: section
+    codio_section: end
+  - name: "Mixed Up Code Practice"
+    type: section
+    configuration:
+      layout: 1-panel
+  - name: "Coding Practice with Loops"
+    type: section
+    codio_section: start
+  - name: "Active code: ch6ex1q"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: ch6ex2q"
+    type: section
+  - name: "Active code: ch6ex3q"
+    type: section
+  - name: "Active code: ch6ex4q"
+    type: section
+  - name: "Active code: ch6ex5q"
+    type: section
+  - name: "Active code: ch6ex6q"
+    type: section
+  - name: "Active code: ch6ex7nq"
+    type: section
+  - name: "Active code: ch6ex8nq"
+    type: section
+  - name: "Active code: ch6ex10nq"
+    type: section
+  - name: "Active code: ch6ex11nq"
+    type: section
+  - name: "Active code: ch6ex9nq"
+    type: section
+  - name: "Active code: ch6ex12nq"
+    type: section
+  - name: "Active code: ch6ex16nq"
+    type: section
+  - name: "Active code: ch6ex14nq"
+    type: section
+  - name: "Active code: ch6ex15nq"
+    type: section
+  - name: "Active code: ch6ex13nq"
+    type: section
+    codio_section: end
+  - name: "Multiple Choice Exercises"
+    type: section
+    configuration:
+      layout: 1-panel
+  - name: "Arrays"
+    type: chapter
+  - name: "Array Creation and Access"
+    type: section
+    codio_section: start
+  - name: "Active code: lcab1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: lcab2"
+    type: section
+  - name: "Active code: array_set"
+    type: section
+  - name: "Active code: imageArray"
+    type: section
+  - name: "Active code: challenge_1_6_countries"
+    type: section
+    codio_section: end
+  - name: "Traversing Arrays with For Loops"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: arraytrace1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: arraytrace2"
+    type: section
+  - name: "Active code: lcal1"
+    type: section
+  - name: "Active code: lcbf1"
+    type: section
+  - name: "Active code: lclp1"
+    type: section
+  - name: "Active code: lclp2"
+    type: section
+  - name: "Active code: offbyone"
+    type: section
+  - name: "Active code: lcap1"
+    type: section
+  - name: "Active code: challenge_6_2_spellchecker"
+    type: section
+    codio_section: end
+  - name: "Enhanced For-Loop (For-Each) for Arrays"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: foreach1"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: evenLoop"
+    type: section
+  - name: "Active code: incrementLoop"
+    type: section
+  - name: "Active code: lcaf2"
+    type: section
+  - name: "Active code: challenge_6_3_spellchecker2"
+    type: section
+    codio_section: end
+  - name: "Array Algorithms (FRQs)"
+    type: section
+    configuration:
+      layout: 1-panel
+    codio_section: start
+  - name: "Active code: minmax"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: rotate"
+    type: section
+    codio_section: end
+  - name: "Summary"
+    type: section
+    configuration:
+      layout: 1-panel
+  - name: "Mixed Up Code Practice"
+    type: section
+  - name: "Code Practice with Arrays"
+    type: section
+    codio_section: start
+  - name: "Active code: ch7Ex1q"
+    type: section
+    configuration:
+      layout: 2-panels
+  - name: "Active code: ch7Ex2q"
+    type: section
+  - name: "Active code: ch7Ex3q"
+    type: section
+  - name: "Active code: ch7Ex4q"
+    type: section
+  - name: "Active code: ch7Ex5q"
+    type: section
+  - name: "Active code: ch7Ex6q"
+    type: section
+  - name: "Active code: ch7Ex7nq"
+    type: section
+  - name: "Active code: ch7Ex8nq"
+    type: section
+  - name: "Active code: ch7Ex9nq"
+    type: section
+  - name: "Active code: ch7Ex10nq"
+    type: section
+    codio_section: end
+  - name: "Multiple-Choice Exercises"
+    type: section
+    configuration:
+      layout: 1-panel
+  - name: "Practice Exam for Arrays"
+    type: section

@@ -1,3 +1,6 @@
+Arrays
+::::::
+
 .. toctree::
    :maxdepth: 3
 
