@@ -19,6 +19,16 @@ Table of Contents
    Conditionals/toctree.rst
    Iteration/toctree.rst
    Arrays/toctree.rst
+   Searching
+   Recursion
+   Objects/toctree.rst
+   Classes/toctree.rst
+   PointersJava
+   Lists
+   Java-ArrayList/toctree.rst
+   2D-Arrays/toctree.rst
+   Sorting
+
    
 
 
