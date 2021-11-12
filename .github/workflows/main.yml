@@ -41,6 +41,6 @@ jobs:
       with:
         token: ${{ steps.codio-login.outputs.token }}
         course-id: d690f31b35ceccfe585199ebe358f033
-        assignment-id: ce989716ef77688777719db740023d86
+        assignment-id: 5fad5cee04b471fe1f851c4c7a9fd8f8
         changelog: ${{ github.event.head_commit.message }}
         dir: converted-structure/generate/getting-started-and-primitive-types
