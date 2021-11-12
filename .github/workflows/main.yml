@@ -34,6 +34,11 @@ jobs:
     - name: Convert
       working-directory: book-converter
       run: python3 converter.py ../converted-structure -y
+      
+    - name: list dir
+      run: |
+        ls -la
+        cd book-converter && ls -la
 
     - name: Log into Codio
       id: codio-login
