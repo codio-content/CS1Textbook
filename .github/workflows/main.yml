@@ -39,8 +39,8 @@ jobs:
       id: codio-login
       uses: codio/codio-auth-action@master
       with:
-        client-id: ${{ secrets.CODIO_SAASBOOK_DEV_CLIENT_ID }}
-        secret-id: ${{ secrets.CODIO_SAASBOOK_DEV_SECRET_ID }}  
+        client-id: ${{ secrets.CODIO_CLIENT_ID }}
+        secret-id: ${{ secrets.CODIO_SECRET_ID }}  
     
     - name: Chapter 1 publish to Codio
       uses: codio/codio-assignment-publish-action@master
