@@ -34,12 +34,6 @@ jobs:
     - name: Convert
       working-directory: book-converter
       run: python3 converter.py ../converted-structure -y
-      
-    - name: Install requirements
-      run: |
-        ls -la
-        cd book-converter && ls -la
-        cd converted-structure && ls -la
 
     - name: Log into Codio
       id: codio-login
