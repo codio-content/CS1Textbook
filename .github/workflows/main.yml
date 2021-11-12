@@ -37,8 +37,10 @@ jobs:
       
     - name: list dir
       run: |
+        pwd
         ls -la
-        cd book-converter && ls -la
+        cd converted-structure
+        ls -la
 
     - name: Log into Codio
       id: codio-login
