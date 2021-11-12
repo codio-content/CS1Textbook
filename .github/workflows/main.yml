@@ -29,7 +29,7 @@ jobs:
 
     - name: Generate toc
       working-directory: book-converter
-      run: python3 converter.py --root ../CS1Textbook --source sources-cis110 --generate sources-cis110/index.rst converted-structure -y
+      run: python3 converter.py --root ../CS1Textbook --source sources-cis110 --generate sources-cis110/index.rst ../converted-structure -y
 
     - name: Convert
       working-directory: book-converter
@@ -38,6 +38,7 @@ jobs:
     - name: Install requirements
       run: |
         ls -la
+        cd book-converter && ls -la
         cd converted-structure && ls -la
 
     - name: Log into Codio
