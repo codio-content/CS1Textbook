@@ -38,8 +38,7 @@ jobs:
     - name: list dir
       run: |
         pwd
-        ls -la
-        cd converted-structure
+        cd converted-structure/generate
         ls -la
 
     - name: Log into Codio
