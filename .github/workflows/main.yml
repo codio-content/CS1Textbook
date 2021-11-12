@@ -13,7 +13,6 @@ jobs:
       with:
         path: CS1Textbook
 
-
     - name: Checkout book-converter repo
       uses: actions/checkout@v2
       with:
@@ -23,7 +22,6 @@ jobs:
         
     - name: Install requirements
       run: |
-        python3 -m pip install --upgrade setuptools
         python3 -m pip install --upgrade pip
         pip3 install -r requirements.txt
         sudo apt-get install -y poppler-utils optipng jpegoptim
@@ -31,7 +29,7 @@ jobs:
 
     - name: Generate toc
       working-directory: book-converter
-      run: python3 converter.py --type rst --source CS1Textbook/_sources --generate CS1Textbook/_sources/index.rst converted-structure -y
+      run: python3 converter.py --root ../CS1Textbook --source sources-cis110 --generate sources-cis110/index.rst converted-structure -y
 
     - name: Convert
       working-directory: book-converter
