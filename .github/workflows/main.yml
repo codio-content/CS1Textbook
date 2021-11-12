@@ -20,6 +20,14 @@ jobs:
         repository: codio/book-converter
         path: book-converter
         ref: csawsome_book
+        
+    - name: Install requirements
+      run: |
+        python3 -m pip install --upgrade setuptools
+        python3 -m pip install --upgrade pip
+        pip3 install -r requirements.txt
+        sudo apt-get install -y poppler-utils optipng jpegoptim
+      working-directory: book-converter
 
     - name: Generate toc
       working-directory: book-converter
